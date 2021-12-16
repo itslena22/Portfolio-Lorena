@@ -17,6 +17,7 @@ main{
     font-family: 'Signika';
     font-weight: 400;
     background-color: #ead9c5;
+    padding-top: 45px;
 }
 h1{
     margin-top: 0px;
@@ -33,6 +34,13 @@ h2{
     font-family: 'Gentium Book Basic';
     font-style: italic;
 }
+h4{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Gentium Book Basic';
+    font-style: italic;
+    font-size: 30px;
+}
 footer{
     background-image: url(./coding\ ex/footerpic.jpg);
     background-repeat: no-repeat;
@@ -42,6 +50,9 @@ footer{
     margin: 30px;
 }
 @media (min-width: 800px){
+    body{
+        border: 40px solid #927f8c;
+    }
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -53,6 +64,15 @@ footer{
     .some{
         padding-bottom: 20px;
     }
+    header{
+        background-size: cover;
+    }
+    footer{
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+   
 }
 
 
@@ -71,7 +91,7 @@ h2 {
     margin-top: 40px;
     font-family: 'Gentium Book Basic';
     font-size: 27px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 h3{
     font-family: 'Signika';
@@ -80,9 +100,24 @@ h3{
     padding-top: 20px;
     text-decoration: underline;
 }
-@media (min-width: 800px){
-    main{
-        display: grid;
+@media(min-width:800px){
+    .description{
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        padding-top: 90px;
+        padding-bottom: 100px;
+        margin-left: 280px;
+        font-size: 17px;
     }
-
+    .profileimage{
+        width: 300px;
+        height: 300px;
+        margin-right: 100px;
+        margin-left: 85px;
+        margin-top: -10px;
+    }
+    .projects{
+        margin-top: 80px;
+    }
 }
