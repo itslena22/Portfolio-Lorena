@@ -5,11 +5,12 @@ body{
 }
 
 header{
-    background-image: url(headerpic.jpg);
+    background-image: url(./coding\ ex/headerpic.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100px;
 }
+
 h1{
     margin-top: 0px;
     height: 60px;
@@ -49,7 +50,12 @@ footer{
     background-image: url(./coding\ ex/footerpic.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
 }
 .icon{
     margin: 30px;
+}
+a{
+    text-align: center;
+    margin-left: 45px;
 }
