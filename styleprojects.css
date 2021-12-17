@@ -48,6 +48,7 @@ footer{
 }
 .icon{
     margin: 30px;
+    width: 40px;
 }
 @media (min-width: 800px){
     body{
