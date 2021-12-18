@@ -1,6 +1,6 @@
 /* general styling */
 body{
-    border: 20px solid #927f8c;
+    border: 20px solid #6b3a2e;
     background-color: #ead9c5;
     margin: 0;
 }
@@ -52,7 +52,7 @@ footer{
 }
 @media (min-width: 800px){
     body{
-        border: 40px solid #927f8c;
+        border: 40px solid #6b3a2e;
     }
     main{
         display: grid;
@@ -81,6 +81,7 @@ footer{
 h2 {
     padding-top: 40px;
 }
+
 
 /* Homepage styling */
 .profileimage{
